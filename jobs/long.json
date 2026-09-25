@@ -42,27 +42,27 @@
       "options": [
         {
           "label": "A1",
-          "value": "a1"
+          "value": "A1"
         },
         {
           "label": "A2",
-          "value": "a2"
+          "value": "A2"
         },
         {
           "label": "B1",
-          "value": "b1"
+          "value": "B1"
         },
         {
           "label": "B2",
-          "value": "b2"
+          "value": "B2"
         },
         {
           "label": "C1",
-          "value": "c1"
+          "value": "C1"
         },
         {
           "label": "C2",
-          "value": "c2"
+          "value": "C2"
         },
         {
           "label": "Native",
