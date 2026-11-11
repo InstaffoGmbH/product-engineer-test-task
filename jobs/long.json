@@ -74,6 +74,8 @@
       "type": "numeric",
       "id": "salary_expectation",
       "question": "What is your yearly salary expectation in EUR?",
+      "min": 20000,
+      "max": 300000,
       "required": true,
       "profile_field": "salary_expectation",
       "must_be_below": 90000
@@ -89,6 +91,7 @@
       "type": "date",
       "id": "starting_date",
       "question": "Ab wann könnten Sie bei uns starten?",
+      "min": "today",
       "required": true
     },
     {

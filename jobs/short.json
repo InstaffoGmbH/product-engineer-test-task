@@ -37,6 +37,8 @@
       "type": "numeric",
       "id": "salary_expectation",
       "question": "What is your yearly salary expectation in EUR?",
+      "min": 20000,
+      "max": 300000,
       "required": true,
       "profile_field": "salary_expectation"
     },
