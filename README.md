@@ -46,7 +46,7 @@ Every question has:
 | Type      | Options                                                               | Answer value                                                                                       |
 | :-------- | :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
 | `text`    | `multiline` (default `false`)                                         | String                                                                                             |
-| `date`    |                                                                       | String, `YYYY-MM-DD`                                                                               |
+| `date`    | `min`, `max`: `YYYY-MM-DD` or `"today"`. Inclusive                    | String, `YYYY-MM-DD`                                                                               |
 | `boolean` |                                                                       | `true` or `false`                                                                                  |
 | `numeric` | `min` (default 0), `max` (default 100000000). Integers only           | Integer                                                                                            |
 | `select`  | `options`: array of `{ "label", "value" }`. `max_choices` (default 1) | `max_choices` 1: the selected option `value` as a string. Above 1: array of selected option values |
